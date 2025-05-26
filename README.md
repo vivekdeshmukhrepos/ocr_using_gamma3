@@ -23,18 +23,19 @@ An app that performs OCR (Optical Character Recognition) and Markdown formatting
 
 - Python 3.9+
 - [Ollama](https://ollama.com) installed and running locally
-- `gemma3:12b` model pulled in Ollama
+- Pull `gemma3:12b` model in Ollama
 ---
 
 ## 🛠️ Installation
 
- 
 - Clone this repository
-git clone https://github.com/yourusername/gemma3-ocr-ollama.git
-cd gemma3-ocr-ollama
+`git clone https://github.com/vivekdeshmukhrepos/ocr_using_gamma3.git`
+ 
 - Install dependencies
 `pip install -r requirements.txt`
-- `streamlit run app.py`
+
+- Run the app
+ `streamlit run app.py`
 
 ## ⚙️ Configuration
 If Ollama is hosted on a different address or port, modify this section in `app.py`

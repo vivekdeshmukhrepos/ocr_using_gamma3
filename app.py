@@ -2,7 +2,7 @@ import streamlit as st
 from ollama import Client  # <-- Change this line
 from PIL import Image
 
-st.set_page_config(page_title="Gemma3 OCR with Ollama", layout="wide")
+st.set_page_config(page_title="Local OCR using Ollama's Gamma3", layout="wide")
 
 # Sidebar Help/Info
 st.sidebar.title("ℹ️ How to Use")
@@ -19,7 +19,7 @@ st.sidebar.markdown(
 )
 
 # Main Title
-st.title("🧠 Gemma3 OCR & Markdown Formatter")
+st.title("Local OCR using Ollama's Gamma3")
 
 # Layout: two columns: left for OCR text, right for upload + image preview
 col_text, col_upload = st.columns([3,1])
@@ -73,7 +73,7 @@ with col_text:
     if st.session_state['ocr_result']:
         st.markdown(st.session_state['ocr_result'], unsafe_allow_html=True)
     else:
-        st.info("Upload an image and click 'Analyze Image' to see extracted text here.")
+        st.info("Upload an image to see extracted text.")
 
 # Footer / additional tips
 st.markdown("---")
