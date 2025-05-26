@@ -15,7 +15,7 @@ An app that performs OCR (Optical Character Recognition) and Markdown formatting
 
 ## 📸 Demo
 
-![demo-screenshot](./assets/demo-screenshot.png)
+![demo-screenshot](./Resources/ocr_using_gamma3.gif)
 
 ---
 
